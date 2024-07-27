@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif; /* Set font family for the whole page */
+    background-color: #f4f4f4; /* Light gray background color for the page */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the page */
+    text-align: center; /* Center-align text */
+}
+
+h1 {
+    color: #333; /* Dark gray color for the main heading */
+}
+
+input, button {
+    padding: 10px; /* Add padding inside input and button elements */
+    margin: 10px 0; /* Add margin above and below input and button elements */
+    border: 1px solid #ccc; /* Light gray border for input and button elements */
+    border-radius: 5px; /* Rounded corners for input and button elements */
+}
+
+button {
+    background-color: #5cb85c; /* Green background color for the button */
+    color: white; /* White text color for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #4cae4c; /* Darker green background color when hovering over the button */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding for unordered list */
+}
+
+li {
+    background: white; /* White background color for list items */
+    margin: 10px 0; /* Add margin above and below list items */
+    padding: 10px; /* Add padding inside list items */
+    border-radius: 5px; /* Rounded corners for list items */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center-align items vertically */
+    justify-content: space-between; /* Space out items horizontally */
+    transition: background-color 0.5s ease; /* Smooth transition for background color change */
+}
+
+li.completed {
+    text-decoration: line-through; /* Strikethrough text for completed items */
+    color: gray; /* Gray text color for completed items */
+    background-color: #dff0d8; /* Light green background color for completed items */
+}
+
+li.deleting {
+    background-color: #f2dede; /* Light red background color for items marked for deletion */
+}
+
+li button {
+    background-color: #d9534f; /* Red background color for delete buttons */
+    color: white; /* White text color for delete buttons */
+    border: none; /* Remove default border for delete buttons */
+    border-radius: 5px; /* Rounded corners for delete buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 5px 10px; /* Add padding inside delete buttons */
+}
+
+li button:hover {
+    background-color: #c9302c; /* Darker red background color when hovering over delete buttons */
+}
